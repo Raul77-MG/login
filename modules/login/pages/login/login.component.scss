@@ -1,0 +1,89 @@
+/* Estilos para el fondo principal */
+.background-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('https://scontent.fcuz1-1.fna.fbcdn.net/v/t39.30808-6/275056331_7431689566870968_9052718809405829773_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=19026a&_nc_eui2=AeEMuJlibes43rsQ2BltQh3kcS-gfRGyyrZxL6B9EbLKtoO_uiWgZR4Q3r42b-sLH1gTYgXwE-q8nR2lZtZEO4Yl&_nc_ohc=O8EXgr4AgUUAX96VJp1&_nc_ht=scontent.fcuz1-1.fna&oh=00_AfB8xW9vJsCLZVyIAfC67O3jeDA27xFfSJErfSpXzf8KbQ&oe=64BF740C');
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* Estilos para el contenedor del formulario */
+.login-container {
+  background-color: rgba(14, 48, 92, 0.8); /* Color de fondo blanco con transparencia */
+  color: #dbd198; /* Color de texto oscuro */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.2); /* Sombra suave */
+  width: 350px;
+}
+  
+  /* Estilos para el formulario */
+  .form {
+    width: 350px;
+    max-width: 100%;
+    margin-bottom: 20px; /* Separación entre el formulario y el enlace "REGISTRARSE" */
+  }
+  
+  /* Estilos para el encabezado del formulario */
+  .login-header {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  /* Estilos para los campos del formulario */
+  .form-group {
+    margin-bottom: 25px; /* Separación entre los campos del formulario */
+  }
+
+  .btn-ingresar {
+    width: 310px; /* Ajusta el ancho según tus necesidades */
+  }
+  
+  /* Estilos para el enlace "REGISTRARSE" */
+  .register-link-container {
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 90px; /* Ajustar la separación entre el botón "Ingresar" y el enlace "REGISTRARSE" */
+    position: relative; /* Agregar posicionamiento relativo para que los elementos hijos hereden las coordenadas */
+  }
+  
+  /* Estilos para el texto encima del enlace "REGISTRARSE" */
+  .register-text {
+    color: rgb(255, 255, 255); /* Color del texto en blanco */
+    font-size: 16px; /* Tamaño de fuente del texto */
+    position: absolute; /* Posicionamiento absoluto encima del enlace */
+    top: -40px; /* Ajustar la posición vertical */
+    left: -9%; /* Centrar horizontalmente */
+    transform: translateX(10%); /* Centrar horizontalmente */
+  }
+  
+  /* Estilos para el enlace "REGISTRARSE" */
+  .register-link {
+    color: rgb(230, 126, 126);
+    text-decoration: none;
+  }
+  
+  /* Estilos para el enlace "Recuperar contraseña" */
+  .recover-text {
+    color: rgb(255, 255, 255); /* Color del texto en blanco */
+    font-size: 16px; /* Tamaño de fuente del texto */
+    position: absolute; /* Posicionamiento absoluto encima del enlace */
+    top: -15px; /* Ajustar la posición vertical */
+    left: -10%; /* Centrar horizontalmente */
+    transform: translateX(5%); /* Centrar horizontalmente */
+  }
+  
+  /* Estilos para el enlace "Recuperar contraseña" */
+  .recover-link {
+    color: rgb(230, 126, 126);
+    text-decoration: none;
+  }
+  
+
